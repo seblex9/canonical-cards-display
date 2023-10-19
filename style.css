@@ -1,0 +1,36 @@
+.cards-container {
+  display: flex;
+}
+
+.u-display-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.u-flex-grow {
+  flex-grow: 1;
+}
+
+.p-card__footer {
+  flex-shrink: 0;
+  padding: 0.25rem;
+}
+
+.p-card {
+  margin: 0 0.5rem;
+  padding: 1rem 0.5rem 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3),
+    inset 0 4px 8px -4px rgba(128, 0, 128, 1);
+}
+
+.category-name {
+  text-transform: uppercase;
+}
+
+.separator {
+  opacity: 0.5;
+}
+
+.p-card__inner {
+  padding-bottom: 1rem;
+}
