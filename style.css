@@ -34,3 +34,12 @@
 .p-card__inner {
   padding-bottom: 1rem;
 }
+
+@media (max-width: 768px) {
+  .cards-container {
+    flex-direction: column;
+  }
+  .p-card {
+    margin-bottom: 1rem;
+  }
+}
